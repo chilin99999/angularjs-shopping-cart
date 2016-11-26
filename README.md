@@ -1,7 +1,12 @@
 # angularjs-shopping-cart
 <p>A simple shopping cart application built in AngularJS</p>
 
-<p>The following techniques are employed in this repository:</p>
+###Demo
+https://www2.cs.ccu.edu.tw/~ltc98u/RespositoryImg/shopping-cart-1.png
+https://www2.cs.ccu.edu.tw/~ltc98u/RespositoryImg/shopping-cart-2.png
+https://www2.cs.ccu.edu.tw/~ltc98u/RespositoryImg/shopping-cart-3.png
+
+###The following techniques are employed in this repository:
 * `$http` to get data from json
 * `ng-repeat` to show data
 * `$filter` to filter data
