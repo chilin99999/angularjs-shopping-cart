@@ -1,7 +1,7 @@
 # angularjs-shopping-cart
-A simple shopping cart application built in AngularJS
-
-
+<p>A simple shopping cart application built in AngularJS</p>
+<br />
+<br />
 <p>The following techniques are employed in this repository:</p>
 * `$http` to get data from json
 * `ng-repeat` to show data
@@ -9,8 +9,8 @@ A simple shopping cart application built in AngularJS
 * `Routing` to switch between pages(or views, components)
 * abstract `Service` to deal with data
 * `$cookies` to store shopping list in browser
-
-
+<br />
+<br />
 <h2>Install</h2>
 <p>Step 1. Use git or browser to clone this repository.</p>
 <p>Step 2. Download and install Node.js https://nodejs.org/en/</p>
