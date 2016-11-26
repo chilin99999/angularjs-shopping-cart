@@ -1,0 +1,27 @@
+/* app css stylesheet */
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+body {
+  font-family: "Microsoft JhengHei";
+}
+
+.return {
+    padding: 20px 0px;
+    text-align: center;
+}
+
+.bt {
+  padding: 5px 16px;
+  border-radius: 6px;
+  color: #EEE;
+  background-color: #0080c0;
+  cursor: pointer;
+}
+
+input[type=text] {
+  width: 50px;
+}

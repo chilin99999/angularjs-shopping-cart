@@ -1,0 +1,23 @@
+.infoTable {
+    margin: 50px auto 0 auto;
+    width: 400px;
+    border-collapse: collapse;
+}
+
+.infoTable td {
+    border: 1px solid #CCC;
+    padding: 4px 8px;
+}
+
+.infoTable tr:first-child {
+    text-align: center;
+}
+
+.infoTable td:first-child {
+    width: 130px;
+}
+
+.infoTable img {
+    max-width: 100%;
+    height: 300px;
+}

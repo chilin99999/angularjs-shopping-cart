@@ -1,0 +1,22 @@
+<link href="item-info/item-info.css" rel="stylesheet" />
+
+<div>
+    <p class="return">
+        <a href="#!/itemList"><span class="bt">返回</span></a>
+    </p>
+    <table class="infoTable">
+        <tr>
+            <td colspan="2">
+                <img src="images/{{ $ctrl.item.imgUrl }}" />
+            </td>
+        </tr>
+        <tr>
+            <td>名稱：</td>
+            <td>{{ $ctrl.item.name }}</td>
+        </tr>
+        <tr>
+            <td>價格：</td>
+            <td>{{ $ctrl.item.price }}</td>
+        </tr>
+    </table>
+</div>

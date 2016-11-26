@@ -1,0 +1,42 @@
+<link href="shopping-cart/shopping-cart.css" rel="stylesheet" />
+
+<div class="header">
+    <p class="shoppingCart-count">
+        <i class="material-icons">shopping_cart</i>購物車： {{ $ctrl.getItemsCount() }}
+    </p>
+</div>
+<p class="return">
+    <a href="#!/itemList"><span class="bt">返回</span></a>
+    <span class="bt" ng-click="$ctrl.checkout()">結帳</span>
+</p>
+<table class="infoTable">
+    <tr>
+        <td colspan="5">
+            商品金額：{{ $ctrl.getItemsPrice() }} 元
+        </td>
+    </tr>
+    <tr>
+        <td>商品圖片</td>
+        <td>商品名稱</td>
+        <td>價格</td>
+        <td>數量</td>
+        <td></td>
+    </tr>
+    <tr class="item" ng-repeat="item in $ctrl.getItems() track by item.id">
+        <td>
+            <img src="images/{{item.imgUrl}}" />
+        </td>
+        <td class="name">
+            {{ item.name }}
+        </td>
+        <td class="price">
+            {{ item.price }} 元
+        </td>
+        <td>
+            數量：<input type="text" ng-model="item.count" />
+        </td>
+        <td>
+            <span ng-click="$ctrl.removeItem(item.id)" class="bt">移除</span>
+        </td>
+    </tr>
+</table>

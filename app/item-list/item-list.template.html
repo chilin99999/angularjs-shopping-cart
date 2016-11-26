@@ -1,0 +1,27 @@
+<link href="item-list/item-list.css" rel="stylesheet" />
+
+<div class="header">
+    <p class="shoppingCart-count">
+        <a href="#!/shoppingCart">
+            <i class="material-icons">shopping_cart</i>購物車： {{ $ctrl.getItemsCount() }}
+        </a>
+    </p>
+</div>
+<div class="itemContainer">
+    <div class="item" ng-repeat="item in $ctrl.items track by item.id">
+        <a href="#!/itemInfo/{{item.id}}">
+            <div class="imgContainer">
+                <img src="images/{{item.imgUrl}}" />
+            </div>
+            <div class="infoContainer">
+                {{ item.name }}
+                {{ item.price | currency }}
+            </div>
+        </a>
+        <div class="actionContainer">
+            <span ng-click="$ctrl.addItem(item)">
+                <i class="material-icons">add_shopping_cart</i>加入購物車
+            </span>
+        </div>
+    </div>
+</div>

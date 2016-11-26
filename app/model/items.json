@@ -1,0 +1,26 @@
+[
+    {
+        "id": 1,
+        "name": "卡坦島",
+        "price": 200,
+        "imgUrl": "catan.jpg"
+    },
+    {
+        "id": 2,
+        "name": "富饒之城",
+        "price": 50,
+        "imgUrl": "citadels.jpg"
+    },
+    {
+        "id": 3,
+        "name": "風聲",
+        "price": 100,
+        "imgUrl": "the-message.jpg"
+    },
+    {
+        "id": 4,
+        "name": "步步為營",
+        "price": 80,
+        "imgUrl": "blockus.jpg"
+    }
+]
