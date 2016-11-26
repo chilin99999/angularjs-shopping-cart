@@ -11,7 +11,7 @@
     <div class="item" ng-repeat="item in $ctrl.items track by item.id">
         <a href="#!/itemInfo/{{item.id}}">
             <div class="imgContainer">
-                <img src="images/{{item.imgUrl}}" />
+                <img ng-src="images/{{item.imgUrl}}" />
             </div>
             <div class="infoContainer">
                 {{ item.name }}
