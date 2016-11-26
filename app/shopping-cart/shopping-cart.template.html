@@ -24,7 +24,7 @@
     </tr>
     <tr class="item" ng-repeat="item in $ctrl.getItems() track by item.id">
         <td>
-            <img src="images/{{item.imgUrl}}" />
+            <img ng-src="images/{{item.imgUrl}}" />
         </td>
         <td class="name">
             {{ item.name }}
