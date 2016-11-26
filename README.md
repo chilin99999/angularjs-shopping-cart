@@ -6,7 +6,7 @@
 * `ng-repeat` to show data
 * `$filter` to filter data
 * `Routing` to switch between pages(or views, components)
-* abstract `Service` to deal with data
+* abstract `Service` to deal with shared data and logic
 * `$cookies` to store shopping list in browser
 
 ## Install
